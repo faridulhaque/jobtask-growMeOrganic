@@ -23,7 +23,8 @@ type TDepVal = {
 
 const Expand = () => {
   const [open, setOpen] = useState<{ [key: number]: boolean }>({});
-  
+
+
   const [departments, setDepartments] = useState<TDepArr>([
     {
       main: {
@@ -62,6 +63,9 @@ const Expand = () => {
       ],
     },
   ]);
+
+
+
 
   const handleClick = (index: number) => {
     setOpen((prevOpen) => ({ ...prevOpen, [index]: !prevOpen[index] }));
