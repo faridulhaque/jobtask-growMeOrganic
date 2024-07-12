@@ -8,6 +8,3 @@
 * React
 * TypeScript
 * MUI
-* 
-
- 
